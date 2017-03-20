@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+     <meta charset="utf-8">
+     <title>Nerd's</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link rel="stylesheet" href="stylesheets/main.css">
+     <link href="stylesheets/normalize.css" rel="stylesheet">            
+  </head>
+  <body>
+    <header class="main-header clearfix">
+       <div class="container">  
+       <div class="header-block">
+      <div class="nerd-logo">
+       <a href="index.html"><img src="img/nerds-logo.png" width="160" height="70" alt="Нердс лого"></a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li class=""><a href="#">Студия</a></li>
+          <li class=""><a href="#">Клиенты</a></li>
+          <li class="active"><a href="#">Магазин</a></li>
+          <li class=""><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">        
+         <a class="bucket" href="#">Корзина</a>
+      </div>
+      </div>
+          <h2 class="text-header">Магазин готовых шаблонов</h2>
+       </div> 
+    </header>
+    <main class="container clearfix">
+      <form action="" method="GET" class="filter">
+      <b class="price-header">Стоимость:</b>
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+            <label class="max-price">до <input type="text" name="max-price" value="15000"></label>
+          </div>
+        </div>
+        <div class="grid"> 
+          <b class="price-header">Сетка:</b>        
+          <input type="radio" name="grid" id="grid1">
+          <label for="grid1">Адаптивная</label>
+          <input type="radio" name="grid" id="grid2">
+          <label for="grid2">Фиксированная</label>
+          <input type="radio" name="grid" id="grid3">
+          <label for="grid3">Резиновая</label>
+         </div>
+         <div class="features">
+           <b class="price-header">Особенности:</b>
+           <input type="checkbox" name="features" id="featur1">
+           <label for="featur1">Слайдер</label>
+           <input type="checkbox" name="features" id="featur2">
+           <label for="featur2">Блок приемуществ</label>
+           <input type="checkbox" name="features" id="featur3">
+           <label for="featur3">Новости</label>
+           <input type="checkbox" name="features" id="featur4">
+           <label for="featur4">Галерея</label>
+           <input type="checkbox" name="features" id="featur5">
+           <label for="featur5">Корзина</label>
+         </div> 
+         <button class="buttons button-4">Показать</button>
+        </form> 
+        <div class="sort">
+          <b class="price-header">Сортировать:</b>
+          <button rel="nofollow" class="sort-btn" disabled>по цене</button>
+          <button rel="nofollow" class="sort-btn">по типу</button>
+          <button rel="nofollow" class="sort-btn">по названию</button>
+          <button rel="nofollow" class=" sort-btn sort-down" disabled><img src="stylesheets/sort-down.png" width="9"></button>
+          <button rel="nofollow" class=" sort-btn sort-up"><img src="stylesheets/sort-up.png" width="9"></button>
+        </div> 
+        <section class="templates">
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="pink"></div>
+            <div class="hover">
+              <b>pink app</b>
+              <p>Продуктовый лендинг</p>
+              <p>приложения для iOS и Android</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="sedona"></div>
+            <div class="hover">
+              <b>sedona</b>
+              <p>Информационный сайт</p>
+              <p>для тупистов</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="mishka"></div>
+            <div class="hover">
+              <b>mishka</b>
+              <p>Интернет-магазин</p>
+              <p>вязаных игрушек</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="barbershop"></div>
+            <div class="hover">
+              <b>barbershop</b>
+              <p>Сайт салоны красоты.</p>
+              <p>Для мужчин,да.</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="kvas"></div>
+            <div class="hover">
+              <b>kbact</b>
+              <p>Промо-сайт производителя</p>
+              <p>крафтового кваса</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>
+          <a href="#" class="template">
+            <div class="browser"></div>
+            <div class="aplus"></div>
+            <div class="hover">
+              <b>a plus</b>
+              <p>Лендинг курсов повышения</p>
+              <p>квалификации</p>
+              <button class="buttons button-6">9 900 руб.</button>
+            </div>
+          </a>  
+          <button class="buttons page-btn" disabled>1</button>
+          <button class="buttons page-btn">2</button>
+          <button class="buttons page-btn">3</button>
+          <button class="buttons button-4 page-btn">следущая</button>          
+        </section>
+    </main>
+    <footer class="main-footer">
+       <div class="container">	
+  		<div class="map-block">
+  			<div class="map">
+  				<img src="img/Слой 2.jpg" alt="map" width="1440" height="415">
+  			</div>	
+  			<div class="addres">
+  				 <img src="img/map-marker.png" class="market" alt="market">
+  			</div>
+  			<div class="addres-block">
+  				<b>NЁRDS DESIGN STUDIO</b>
+  				<p class="addres-1">191186, Санкт-Петербург,</p>
+  				<p>ул. Б. Конюшенная, д. 19/8</p>
+  				<p class="phone">тел. +7(812)275-75-75</p>
+  				<button class="buttons button-3">Напишите нам</button>  
+  			</div>
+        <div class="modal-content">
+          <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+          <h2 class="modal-content-title">Напишите нам</h2>
+          <b class="name">Ваше имя:</b>
+          <b class="email">Ваше e-mail:</b>
+          <form class="modal-form" action="" method="post">
+            <input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+            <input type="e-mail" name="email" placeholder="Для отправки ответа">
+            <b class="post">Текст писма:</b>
+            <textarea placeholder="В свободной форме" name="post"></textarea>
+            <button type="submit" class="buttons button-5">Напишите нам</button>
+          </form>
+        </div>
+  		</div>
+  		<div class="social-icon">
+  		  <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+  		</div>
+  		<div class="footer-text">
+  			<h2>Давайте дружить, это выгодно!</h2>
+  			<p>Скидка 10% для друзей из социальных сетей</p>
+  		</div>
+  	  </div>
+  	</footer>
+    <script type="text/javascript">
+      var link = document.querySelector(".button-3");
+
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+
+      link.addEventListener("click", function(event){
+        event.preventDefault();
+        popup.classList.add("modal-content-show");
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+    </script>
+  </body>
+  </html>
